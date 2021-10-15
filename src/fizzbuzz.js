@@ -1,5 +1,5 @@
 function onenumber(num) {
-    let result = null;
+    let result = '';
     if (typeof(num) == 'number') {
         result = num;
         if (num % 5 == 0 && num % 3 == 0) {
@@ -14,9 +14,9 @@ function onenumber(num) {
 }
 
 function fizzbuzz() {
-    for (let index = 0; index <= 100; index++) {
+    for (let index = 1; index <= 100; index++) {
         let listNumber = onenumber(index);
-        console.log(listNumber);
+        // console.log(listNumber);
     }
 }
 

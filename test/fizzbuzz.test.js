@@ -17,7 +17,7 @@ test('playing with a number divisible by 3 and 5', () => {
 });
 
 test('playing with a string', () => {
-    expect(onenumber('number')).toBeNull();
+    expect(onenumber('number')).toBe('');
 });
 
 test('playing with the whole list', () => {
